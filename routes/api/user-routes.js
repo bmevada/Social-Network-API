@@ -1,3 +1,16 @@
+const router = require('express').Router();
+const {
+    getUsers,
+    getSingleUser,
+    createUser,
+    updateUser,
+    deleteUser,
+    addFriend,
+    removeFriend,
+} = require('.../.../controllers/user-controller');
+
+router.route('/').get.('getUsers').post(createUser);
+
 // /api/users
 // GET all users
 // GET a single user by its _id and populated thought and friend data
@@ -10,4 +23,9 @@
 // /api/users/:userId/friends/:friendId
 // POST to add a new friend to a user's friend list
 // DELETE to remove a friend from a user's friend list
+
+router.route('/:userId').get('getSingleUser').put(updateUser).delete(deleteUser);
+router.route('/userId/friends/:friendId').post(addFriend).delete(removeFriend);
+
+module.exports = router;
 
