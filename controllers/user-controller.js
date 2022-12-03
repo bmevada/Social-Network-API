@@ -68,10 +68,10 @@ const userController = {
                 console.log(err);
                 res.status(500).json(err);
             });
-    }
+    },
 
-    // Delete a user and delete asscoiated thoughts
-    deleteUser(req, res) {
+        // Delete a user and delete asscoiated thoughts
+        deleteUser(req, res) {
         User.findOneAndDelete({ _id: req.params.userId })
             .then((dbUserData) => {
                 if (!dbUserData) {
