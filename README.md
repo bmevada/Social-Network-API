@@ -41,10 +41,16 @@ THEN the user is able to successfully create and delete reactions to thoughts an
 ## Mock up - Walkthrough video
 
 Click here to view the walkthrough video once the server has started: https://drive.google.com/file/d/1jy1NNW9Cb2EmmGtIUeroITiuwTnpD4PP/view?usp=sharing
+https://watch.screencastify.com/v/bDcFpF2rI9nxdhl4sBlt
 
 ## Functionality of Working Application
 Once the server has started (by running run `npm start` in the terminal), the Mongoose models are synched to the MongoDB database.
 
+<img width="1028" alt="models for thoughts and user synched to Mongoose" src="https://user-images.githubusercontent.com/109460560/205632809-5e650565-aff1-4182-a8fb-28332993b80f.png">
+
+<img width="1028" alt="Database for Users" src="https://user-images.githubusercontent.com/109460560/205632881-317801b5-828b-4bab-8176-98ac82a7fb05.png">
+
+<img width="1026" alt="Database for thoughts" src="https://user-images.githubusercontent.com/109460560/205632865-1dc1585b-ff71-4a52-bc5f-f2d1e05f8ef5.png">
 
 
 The walkthrough video (link above), shows the following API routes were created to test the data. This is demonstrated within Insomnia by adding, updating and removing users, friends, thoughts, and reactions in the user's database.
@@ -75,16 +81,23 @@ The walkthrough video (link above), shows the following API routes were created 
 
 At the end of the walk through video, it was demonstrated any changes made to the data in Insomnia was also reflected in Mongo DB
 
+<img width="1023" alt="Updated Users" src="https://user-images.githubusercontent.com/109460560/205632929-32cb584b-6273-499f-b1df-fc415fca03c7.png">
+
+<img width="1030" alt="Updated Thoughts" src="https://user-images.githubusercontent.com/109460560/205632950-ee56a827-33d9-414d-a347-ab8bee71c560.png">
+
 
 ## Development Technologies Used
 - Express.js -  used for routing
 - MongoDB database - used to build highly available and scalable internet applications, with a flexible schema approach
 - Mongoose ODM - library that provides object mapping functionality for MongoDB
 - JavaScript date library - to format datestamps
+- Insomnia - to test the functionality
+- Node.js
 
 ## Author
 Bhavika Mevada
 [Link to Github] - https://github.com/bmevada/Social-Network-API.git
-[Link to working application] - hhttps://drive.google.com/file/d/1jy1NNW9Cb2EmmGtIUeroITiuwTnpD4PP/view?usp=sharing
+[Link to working application] - https://drive.google.com/file/d/1jy1NNW9Cb2EmmGtIUeroITiuwTnpD4PP/view?usp=sharing
+https://watch.screencastify.com/v/bDcFpF2rI9nxdhl4sBlt
 
 
