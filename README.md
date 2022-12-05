@@ -45,6 +45,8 @@ Click here to view the walkthrough video once the server has started: https://dr
 ## Functionality of Working Application
 Once the server has started (by running run `npm start` in the terminal), the Mongoose models are synched to the MongoDB database.
 
+
+
 The walkthrough video (link above), shows the following API routes were created to test the data. This is demonstrated within Insomnia by adding, updating and removing users, friends, thoughts, and reactions in the user's database.
 
 **USER**
