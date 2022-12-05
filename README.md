@@ -95,9 +95,9 @@ At the end of the walk through video, it was demonstrated any changes made to th
 - Node.js
 
 ## Author
-Bhavika Mevada
-[Link to Github] - https://github.com/bmevada/Social-Network-API.git
-[Link to working application] - https://drive.google.com/file/d/1jy1NNW9Cb2EmmGtIUeroITiuwTnpD4PP/view?usp=sharing
-https://watch.screencastify.com/v/bDcFpF2rI9nxdhl4sBlt
+ - Bhavika Mevada
+ - [Link to Github] - https://github.com/bmevada/Social-Network-API.git
+ - [Link to working application] - https://drive.google.com/file/d/1jy1NNW9Cb2EmmGtIUeroITiuwTnpD4PP/view?usp=sharing
+ - https://watch.screencastify.com/v/bDcFpF2rI9nxdhl4sBlt
 
 
